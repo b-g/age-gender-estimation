@@ -23,7 +23,7 @@ RUN pip3 --no-cache-dir install \
 # Install project specific dependencies
 RUN pip3 --no-cache-dir install \
     Keras==2.3.1 \
-    tensorflow-gpu==1.13.1  \
+    tensorflow-gpu==1.13.1 \
     cmake
 
 RUN pip3 --no-cache-dir install \

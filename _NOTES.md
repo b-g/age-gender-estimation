@@ -5,8 +5,13 @@
 
 ```
 ./run-docker.sh
+```
 
-# inside docker:
+in docker container:
+```
 python3 demo.py --image_dir output/
+
+python3 gender-filter.py --input-folder output/test/frames --output-folder output/test/
+
 
 ```
